@@ -5,7 +5,7 @@ import joblib
 import base64
 
 # Load model and features
-model = joblib.load('salary_model.pkl')
+model = joblib.load('salary_model_compressed.pkl')
 model_features = joblib.load('model_features.pkl')
 
 def set_background(image_file):
